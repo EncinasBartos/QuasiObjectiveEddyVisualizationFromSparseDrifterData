@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Data}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Satellite altimetry ocean-surface current product \(AVISO\)}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Drifter data sets}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Grand Lagrangian Deployment \(GLAD\)}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Global Drifter Program \(GDP\)}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Drifter data preprocessing}{subsection.2.2}% 7
+\BOOKMARK [1][-]{section.3}{Methods}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Trajectory rotation average}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Trajectory length}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Lagrangian spin}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Lagrangian averaged vorticity deviation}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Results}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Grand Lagrangian Deployment \(GLAD\)}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Coastal area}{subsection.4.1}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Open sea}{subsection.4.1}% 16
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Eddy dynamics}{subsection.4.1}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Global Drifter Program \(GDP\)}{section.4}% 18
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 19
+\BOOKMARK [1][-]{appendix.A}{Eddy Boundary Extraction Algorithm}{}% 20

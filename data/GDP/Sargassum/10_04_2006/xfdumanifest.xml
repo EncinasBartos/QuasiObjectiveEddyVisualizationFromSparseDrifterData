@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xfdu:XFDU xmlns:xfdu="urn:ccsds:schema:xfdu:1" xmlns:sentinel-safe="http://www.esa.int/safe/sentinel/1.1" xmlns:gml="http://www.opengis.net/gml" xmlns:sentinel3="http://www.esa.int/safe/sentinel/sentinel-3/1.0" xmlns:meris="http://www.esa.int/safe/sentinel/sentinel-3/meris/1.0" xmlns:envisat="http://www.esa.int/safe/sentinel/sentinel-3/1.0" xmlns:envisataux="http://www.esa.int/safe/sentinel/sentinel-3/adf/1.0" version="esa/safe/sentinel/sentinel-3/meris/level-1/1.0">
+  <informationPackageMap>
+    <xfdu:contentUnit textInfo="ENVISAT MERIS Level 1 Product" pdiID="processing" dmdID="acquisitionPeriod platform measurementOrbitReference measurementQualityInformation measurementFrameSet generalProductInformation merisProductInformation">
+      <xfdu:contentUnit ID="M01_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M01" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M01_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M02_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M02" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M02_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M03_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M03" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M03_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M04_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M04" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M04_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M05_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M05" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M05_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M06_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M06" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M06_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M07_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M07" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M07_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M08_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M08" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M08_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M09_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M09" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M09_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M10_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M10" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M10_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M11_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M11" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M11_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M12_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M12" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M12_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M13_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M13" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M13_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M14_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M14" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M14_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="M15_radianceUnit" unitType="Measurement Data Unit" textInfo="TOA radiance for MERIS acquisition band M15" dmdID="qualityFlagsAnnotation timeCoordinatesAnnotation geoCoordinatesAnnotation tieGeoCoordinatesAnnotation tieGeometriesAnnotation tieMeteoAnnotation instrumentDataAnnotation">
+        <dataObjectPointer dataObjectID="M15_radianceData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="qualityFlagsUnit" unitType="Annotation Data Unit" textInfo="Quality flags">
+        <dataObjectPointer dataObjectID="qualityFlagsData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="timeCoordinatesUnit" unitType="Annotation Data Unit" textInfo="Time Coordinates Annotations">
+        <dataObjectPointer dataObjectID="timeCoordinatesData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="geoCoordinatesUnit" unitType="Annotation Data Unit" textInfo="Geo Coordinates Annotations">
+        <dataObjectPointer dataObjectID="geoCoordinatesData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="tieGeoCoordinatesUnit" unitType="Annotation Data Unit" textInfo="Tie-Point Geo Coordinate Annotations">
+        <dataObjectPointer dataObjectID="tieGeoCoordinatesData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="tieGeometriesUnit" unitType="Annotation Data Unit" textInfo="Tie-Point Geometries Annotations">
+        <dataObjectPointer dataObjectID="tieGeometriesData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="tieMeteoUnit" unitType="Annotation Data Unit" textInfo="Tie-Point Meteo Annotations">
+        <dataObjectPointer dataObjectID="tieMeteoData"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="instrumentDataUnit" unitType="Annotation Data Unit" textInfo="Instrument Annotations">
+        <dataObjectPointer dataObjectID="instrumentDataData"/>
+      </xfdu:contentUnit>
+    </xfdu:contentUnit>
+  </informationPackageMap>
+  <metadataSection>
+    <metadataObject ID="processing" classification="PROVENANCE" category="PDI">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="Processing">
+        <xmlData>
+          <sentinel-safe:processing name="DataProcessing" outputLevel="1" start="2018-07-11T21:35:56.000000Z" stop="2018-07-11T22:00:20.000000Z">
+            <sentinel-safe:facility name="" organisation="" site="" country="">
+              <sentinel-safe:hardware name="REF"/>
+              <sentinel-safe:software name="MEGS-L1" version="9.6"/>
+            </sentinel-safe:facility>
+            <sentinel-safe:resource name="MER_RR__0PPLRA20061004_150235_000026312051_00426_24027_1652.N1" role="MF_TYPE_L0">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="MER_INS_AXVACR20080826_192134_20020321_193100_20200101_000000 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="MER_CP1_AXVACR20091015_130410_20020321_193100_20200101_000000 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="MER_RAC_AXTACR20160728_164409_20041213_220000_20061009_220000 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="AUX_LWM_AXTBCC20150608_000000_20000101_000000_20991231_235959 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="AUX_OOM_AXTBCC20150608_000000_20000101_000000_20991231_235959 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="AUX_CLM_AXTBCC20160617_000000_20000101_000000_20991231_235959 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="AUX_TRM_AXTESA20150914_000000_20000101_000000_20991231_235959 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="AUX_EIA_AXNECM20000101_000000_20061004_150000_20061005_030000 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="DOR_VOR_AXVF-P20120425_130200_20061003_215527_20061005_002327 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="AUX_FRA_AXVFOS20070125_151123_20061004_000000_20061006_000000 " role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="MER_DEM_AXTESA20150528_000000_20000101_000000_20991231_235959" role="MF_TYPE_ADF">
+              <sentinel-safe:processing name="">
+                <sentinel-safe:facility name="" organisation="" site="" country="">
+                  <sentinel-safe:software name="" version=""/>
+                </sentinel-safe:facility>
+              </sentinel-safe:processing>
+            </sentinel-safe:resource>
+            <sentinel-safe:resource name="PDFS_NAME" role="PDFS_ROLE" version="PDFS_VERSION"/>
+          </sentinel-safe:processing>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="acquisitionPeriod" classification="DESCRIPTION" category="DMD">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="Acquisition Period">
+        <xmlData>
+          <sentinel-safe:acquisitionPeriod>
+            <sentinel-safe:startTime>2006-10-04T15:02:35.481794Z</sentinel-safe:startTime>
+            <sentinel-safe:stopTime>2006-10-04T15:46:28.262261Z</sentinel-safe:stopTime>
+          </sentinel-safe:acquisitionPeriod>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="platform" classification="DESCRIPTION" category="DMD">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="Platform Description">
+        <xmlData>
+          <sentinel-safe:platform>
+            <sentinel-safe:nssdcIdentifier>2002-009A</sentinel-safe:nssdcIdentifier>
+            <sentinel-safe:familyName>Envisat</sentinel-safe:familyName>
+            <sentinel-safe:number>1</sentinel-safe:number>
+            <sentinel-safe:instrument>
+              <sentinel-safe:familyName abbreviation="MERIS">MEdium Resolution Imaging Spectrometer</sentinel-safe:familyName>
+              <sentinel-safe:mode identifier="EO">Earth Observation</sentinel-safe:mode>
+            </sentinel-safe:instrument>
+          </sentinel-safe:platform>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="generalProductInformation" classification="DESCRIPTION" category="DMD">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="General Product Information">
+        <xmlData>
+          <envisat:generalProductInformation>
+            <envisat:productName>ENV_ME_1_RRG____20061004T150235_20061004T154628_________________2633_051_426______DSI_R_NT____.SEN3</envisat:productName>
+            <envisat:productType>ME_1_RRG___</envisat:productType>
+            <envisat:timeliness>NT</envisat:timeliness>
+            <envisat:baselineCollection>___</envisat:baselineCollection>
+            <envisat:creationTime>20180711T220020</envisat:creationTime>
+            <envisat:productSize>474469813</envisat:productSize>
+            <envisat:dumpInformation>
+              <envisat:granuleNumber>0</envisat:granuleNumber>
+              <envisat:dumpStart></envisat:dumpStart>
+              <envisat:receivingGroundStation></envisat:receivingGroundStation>
+              <envisat:receivingStartTime></envisat:receivingStartTime>
+              <envisat:receivingStopTime></envisat:receivingStopTime>
+            </envisat:dumpInformation>
+          </envisat:generalProductInformation>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="measurementOrbitReference" classification="DESCRIPTION" category="DMD">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="Orbit Reference">
+        <xmlData>
+          <sentinel-safe:orbitReference>
+            <sentinel-safe:orbitNumber groundTrackDirection="descending" type="start">24027</sentinel-safe:orbitNumber>
+            <sentinel-safe:relativeOrbitNumber groundTrackDirection="descending" type="start">426</sentinel-safe:relativeOrbitNumber>
+            <sentinel-safe:passNumber groundTrackDirection="descending" type="start">0</sentinel-safe:passNumber>
+            <sentinel-safe:relativePassNumber groundTrackDirection="descending" type="start">0</sentinel-safe:relativePassNumber>
+            <sentinel-safe:cycleNumber>51</sentinel-safe:cycleNumber>
+            <sentinel-safe:phaseIdentifier>0</sentinel-safe:phaseIdentifier>
+            <sentinel-safe:elementSet/>
+          </sentinel-safe:orbitReference>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="measurementQualityInformation" classification="DESCRIPTION" category="DMD">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="Quality Information">
+        <xmlData>
+          <sentinel-safe:qualityInformation>
+            <sentinel-safe:extension>
+              <envisat:productQuality>
+                <envisat:onlineQualityCheck>PASSED</envisat:onlineQualityCheck>
+              </envisat:productQuality>
+            </sentinel-safe:extension>
+          </sentinel-safe:qualityInformation>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="measurementFrameSet" classification="DESCRIPTION" category="DMD">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="Frame Set">
+        <xmlData>
+          <sentinel-safe:frameSet>
+            <sentinel-safe:footPrint srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+              <gml:posList>71.7785 -27.1501 71.8919 -27.4607 72.0048 -27.775 72.1171 -28.0932 72.2289 -28.4153 72.3402 -28.7412 72.451 -29.0712 72.5611 -29.4052 72.6708 -29.7433 72.7798 -30.0856 72.8883 -30.4321 72.9961 -30.7829 73.1034 -31.138 73.21 -31.4975 73.316 -31.8614 73.4214 -32.2298 73.5261 -32.6028 73.6301 -32.9804 73.7334 -33.3627 73.8361 -33.7498 73.938 -34.1416 74.0392 -34.5383 74.1397 -34.9399 74.2395 -35.3464 74.3384 -35.758 74.4366 -36.1747 74.534 -36.5965 74.6306 -37.0235 74.7263 -37.4557 74.8213 -37.8932 74.9153 -38.3361 75.0085 -38.7844 75.1008 -39.2381 75.1922 -39.6973 75.2827 -40.1621 75.3722 -40.6325 75.4608 -41.1085 75.5484 -41.5902 75.635 -42.0775 75.7206 -42.5707 75.8052 -43.0696 75.8887 -43.5744 75.9712 -44.0849 76.0526 -44.6014 76.1329 -45.1238 76.212 -45.6521 76.2901 -46.1863 76.3669 -46.7265 76.4426 -47.2726 76.5171 -47.8247 76.5903 -48.3828 76.6624 -48.9468 76.7331 -49.5168 76.8026 -50.0927 76.8708 -50.6746 76.9376 -51.2623 77.0031 -51.856 77.0673 -52.4555 77.1301 -53.0608 77.1914 -53.6719 77.2514 -54.2886 77.3099 -54.9111 77.3669 -55.5391 77.4225 -56.1727 77.4765 -56.8117 77.529 -57.4561 77.58 -58.1058 77.6295 -58.7607 77.6773 -59.4206 77.7236 -60.0856 77.7682 -60.7554 77.6091 -60.9835 77.4498 -61.2065 77.2904 -61.4245 77.1309 -61.6376 76.9712 -61.8461 76.8113 -62.05 76.6514 -62.2496 76.4913 -62.4451 76.3311 -62.6365 76.1707 -62.824 76.0103 -63.0077 75.8497 -63.1878 75.689 -63.3643 75.5283 -63.5374 75.3674 -63.7073 75.2064 -63.8739 75.0454 -64.0374 74.8842 -64.198 74.723 -64.3556 74.5616 -64.5104 74.4002 -64.6625 74.2387 -64.812 74.0772 -64.9589 73.9155 -65.1033 73.7538 -65.2452 73.592 -65.3849 73.4301 -65.5222 73.2682 -65.6574 73.1062 -65.7904 72.9441 -65.9213 72.782 -66.0502 72.6198 -66.1771 72.4576 -66.3021 72.2953 -66.4252 72.1329 -66.5465 71.9705 -66.666 71.808 -66.7838 71.6455 -66.8999 71.4829 -67.0145 71.3203 -67.1274 71.1576 -67.2387 70.9949 -67.3486 70.8321 -67.457 70.6693 -67.5639 70.5065 -67.6694 70.3435 -67.7736 70.1806 -67.8765 70.0176 -67.978 69.8546 -68.0783 69.6915 -68.1774 69.5284 -68.2752 69.3653 -68.3719 69.2021 -68.4674 69.0389 -68.5618 68.8756 -68.6551 68.7123 -68.7473 68.549 -68.8385 68.3856 -68.9286 68.2222 -69.0177 68.0588 -69.1059 67.8953 -69.1931 67.7318 -69.2794 67.5683 -69.3647 67.4048 -69.4492 67.2412 -69.5328 67.0776 -69.6155 66.9139 -69.6974 66.7503 -69.7784 66.5866 -69.8587 66.4228 -69.9381 66.2591 -70.0168 66.0953 -70.0948 65.9315 -70.172 65.7677 -70.2484 65.6038 -70.3242 65.4399 -70.3993 65.276 -70.4737 65.1121 -70.5474 64.9482 -70.6204 64.7842 -70.6929 64.6202 -70.7646 64.4562 -70.8358 64.2921 -70.9064 64.1281 -70.9764 63.964 -71.0457 63.7999 -71.1146 63.6357 -71.1828 63.4716 -71.2505 63.3074 -71.3177 63.1432 -71.3843 62.979 -71.4504 62.8148 -71.516 62.6505 -71.5811 62.4863 -71.6457 62.322 -71.7099 62.1577 -71.7735 61.9933 -71.8367 61.829 -71.8994 61.6646 -71.9617 61.5003 -72.0235 61.3359 -72.0849 61.1714 -72.1459 61.007 -72.2065 60.8426 -72.2666 60.6781 -72.3263 60.5136 -72.3857 60.3491 -72.4446 60.1846 -72.5032 60.02 -72.5614 59.8555 -72.6192 59.6909 -72.6766 59.5263 -72.7337 59.3618 -72.7905 59.1971 -72.8469 59.0325 -72.9029 58.8679 -72.9586 58.7032 -73.014 58.5385 -73.069 58.3738 -73.1238 58.2091 -73.1782 58.0444 -73.2323 57.8797 -73.2861 57.715 -73.3396 57.5502 -73.3928 57.3854 -73.4457 57.2206 -73.4984 57.0558 -73.5507 56.891 -73.6028 56.7262 -73.6546 56.5613 -73.7061 56.3965 -73.7574 56.2316 -73.8084 56.0667 -73.8591 55.9018 -73.9096 55.7369 -73.9599 55.572 -74.0099 55.4071 -74.0596 55.2421 -74.1092 55.0772 -74.1584 54.9122 -74.2075 54.7472 -74.2563 54.5822 -74.3049 54.4172 -74.3533 54.2522 -74.4015 54.0872 -74.4494 53.9221 -74.4972 53.7571 -74.5447 53.592 -74.592 53.4269 -74.6392 53.2618 -74.6861 53.0967 -74.7328 52.9316 -74.7793 52.7665 -74.8257 52.6014 -74.8718 52.4362 -74.9178 52.2711 -74.9636 52.1059 -75.0092 51.9407 -75.0547 51.7755 -75.0999 51.6103 -75.145 51.4451 -75.1899 51.2799 -75.2347 51.1146 -75.2792 50.9494 -75.3237 50.7841 -75.3679 50.6189 -75.412 50.4536 -75.456 50.2883 -75.4997 50.123 -75.5434 49.9577 -75.5869 49.7924 -75.6302 49.627 -75.6734 49.4617 -75.7164 49.2964 -75.7594 49.131 -75.8021 48.9656 -75.8447 48.8003 -75.8872 48.6349 -75.9296 48.4695 -75.9718 48.3041 -76.0139 48.1386 -76.0559 47.9732 -76.0977 47.8078 -76.1394 47.6423 -76.181 47.4769 -76.2225 47.3114 -76.2638 47.1459 -76.3051 46.9804 -76.3462 46.8149 -76.3872 46.6494 -76.428 46.4839 -76.4688 46.3184 -76.5095 46.1529 -76.55 45.9873 -76.5904 45.8218 -76.6308 45.6562 -76.671 45.4906 -76.7111 45.3251 -76.7511 45.1595 -76.7911 44.9939 -76.8309 44.8283 -76.8706 44.6627 -76.9102 44.497 -76.9497 44.3314 -76.9892 44.1658 -77.0285 44.0001 -77.0678 43.8345 -77.1069 43.6688 -77.146 43.5031 -77.185 43.3374 -77.2238 43.1717 -77.2627 43.006 -77.3014 42.8403 -77.34 42.6746 -77.3786 42.5089 -77.417 42.3432 -77.4554 42.1774 -77.4937 42.0117 -77.532 41.8459 -77.5701 41.6801 -77.6082 41.5144 -77.6462 41.3486 -77.6841 41.1828 -77.722 41.017 -77.7598 40.8512 -77.7975 40.6854 -77.8351 40.5196 -77.8727 40.3537 -77.9102 40.1879 -77.9476 40.0221 -77.985 39.8562 -78.0223 39.6903 -78.0595 39.5245 -78.0967 39.3586 -78.1338 39.1927 -78.1709 39.0268 -78.2078 38.8609 -78.2448 38.695 -78.2816 38.5291 -78.3184 38.3632 -78.3552 38.1972 -78.3919 38.0313 -78.4285 37.8654 -78.4651 37.6994 -78.5016 37.5335 -78.5381 37.3675 -78.5745 37.2015 -78.6109 37.0355 -78.6472 36.8696 -78.6835 36.7036 -78.7197 36.5376 -78.7559 36.3716 -78.792 36.2055 -78.828 36.0395 -78.8641 35.8735 -78.9 35.7075 -78.936 35.5414 -78.9718 35.3754 -79.0077 35.2093 -79.0435 35.0433 -79.0792 34.8772 -79.1149 34.7111 -79.1506 34.545 -79.1862 34.3789 -79.2218 34.2128 -79.2574 34.0467 -79.2929 33.8806 -79.3283 33.7145 -79.3638 33.5484 -79.3992 33.3823 -79.4345 33.2161 -79.4698 33.05 -79.5051 32.8839 -79.5404 32.7177 -79.5756 32.5516 -79.6108 32.3854 -79.6459 32.2192 -79.681 32.053 -79.7161 31.8869 -79.7512 31.7207 -79.7862 31.5545 -79.8212 31.3883 -79.8561 31.2221 -79.8911 31.0559 -79.926 30.8896 -79.9609 30.7234 -79.9957 30.5572 -80.0305 30.391 -80.0653 30.2247 -80.1001 30.0585 -80.1348 29.8922 -80.1695 29.726 -80.2042 29.5597 -80.2389 29.3934 -80.2735 29.2272 -80.3082 29.0609 -80.3428 28.8946 -80.3773 28.7283 -80.4119 28.562 -80.4464 28.3957 -80.4809 28.2294 -80.5154 28.0631 -80.5499 27.8968 -80.5844 27.7305 -80.6188 27.5642 -80.6532 27.3978 -80.6876 27.2315 -80.722 27.0652 -80.7564 26.8988 -80.7907 26.7325 -80.825 26.5661 -80.8594 26.3998 -80.8937 26.2334 -80.9279 26.0671 -80.9622 25.9007 -80.9965 25.7343 -81.0307 25.5679 -81.065 25.4015 -81.0992 25.2352 -81.1334 25.0688 -81.1676 24.9024 -81.2018 24.736 -81.236 24.5696 -81.2701 24.4032 -81.3043 24.2367 -81.3384 24.0703 -81.3726 23.9039 -81.4067 23.7375 -81.4408 23.5711 -81.4749 23.4046 -81.509 23.2382 -81.5431 23.0718 -81.5772 22.9053 -81.6113 22.7389 -81.6454 22.5724 -81.6795 22.406 -81.7135 22.2395 -81.7476 22.073 -81.7817 21.9066 -81.8157 21.7401 -81.8498 21.5736 -81.8838 21.4072 -81.9179 21.2407 -81.9519 21.0742 -81.986 20.9077 -82.02 20.7412 -82.054 20.5747 -82.0881 20.4083 -82.1221 20.2418 -82.1562 20.0753 -82.1902 19.9088 -82.2242 19.7423 -82.2583 19.5758 -82.2923 19.4092 -82.3264 19.2427 -82.3604 19.0762 -82.3945 18.9097 -82.4285 18.7432 -82.4626 18.5767 -82.4966 18.4101 -82.5307 18.2436 -82.5648 18.0771 -82.5988 17.9105 -82.6329 17.744 -82.667 17.5775 -82.7011 17.4109 -82.7352 17.2444 -82.7693 17.0779 -82.8034 16.9113 -82.8375 16.7448 -82.8716 16.5782 -82.9058 16.4117 -82.9399 16.2451 -82.9741 16.0786 -83.0082 15.912 -83.0424 15.7455 -83.0766 15.5789 -83.1108 15.4124 -83.1449 15.2458 -83.1792 15.0792 -83.2134 14.9127 -83.2476 14.7461 -83.2819 14.5796 -83.3161 14.413 -83.3504 14.2464 -83.3847 14.0799 -83.419 13.9133 -83.4533 13.7467 -83.4876 13.5802 -83.5219 13.4136 -83.5563 13.247 -83.5906 13.0805 -83.625 12.9139 -83.6594 12.7473 -83.6938 12.5807 -83.7283 12.4142 -83.7627 12.2476 -83.7972 12.081 -83.8317 11.9145 -83.8662 11.7479 -83.9007 11.5813 -83.9352 11.4147 -83.9698 11.2482 -84.0043 11.0816 -84.0389 10.915 -84.0735 10.7484 -84.1082 10.5819 -84.1428 10.4153 -84.1775 10.2487 -84.2122 10.0822 -84.2469 9.9156 -84.2817 9.74903 -84.3164 9.58246 -84.3512 9.41589 -84.386 9.24933 -84.4209 9.08276 -84.4557 8.9162 -84.4906 8.74964 -84.5255 8.58307 -84.5604 8.41651 -84.5954 8.24995 -84.6304 8.08339 -84.6654 7.91684 -84.7004 7.75028 -84.7355 7.58373 -84.7705 7.41718 -84.8057 7.25063 -84.8408 7.08408 -84.876 6.91753 -84.9112 6.75098 -84.9464 6.58444 -84.9816 6.4179 -85.0169 6.25136 -85.0522 6.08482 -85.0876 5.91829 -85.123 5.75176 -85.1584 5.58523 -85.1938 5.4187 -85.2293 5.25217 -85.2648 5.08565 -85.3003 4.91913 -85.3359 4.75261 -85.3715 4.5861 -85.4071 4.41958 -85.4428 4.25307 -85.4785 4.08657 -85.5142 3.92007 -85.55 3.75357 -85.5858 3.58707 -85.6217 3.42058 -85.6575 3.25408 -85.6934 3.0876 -85.7294 2.92111 -85.7654 2.75464 -85.8014 2.58816 -85.8375 2.42169 -85.8736 2.25522 -85.9097 2.08875 -85.9459 1.92229 -85.9821 1.75584 -86.0184 1.58938 -86.0547 1.42293 -86.0911 1.25649 -86.1274 1.09005 -86.1639 0.923614 -86.2003 0.757183 -86.2369 0.590757 -86.2734 0.424335 -86.31 0.257917 -86.3467 0.0915048 -86.3833 -0.0749028 -86.4201 -0.241305 -86.4569 -0.407703 -86.4937 -0.574096 -86.5305 -0.740483 -86.5675 -0.906865 -86.6044 -1.07324 -86.6414 -1.23961 -86.6785 -1.40598 -86.7156 -1.57234 -86.7527 -1.73869 -86.7899 -1.90504 -86.8272 -2.07139 -86.8645 -2.23772 -86.9018 -2.40405 -86.9392 -2.57038 -86.9767 -2.7367 -87.0142 -2.90301 -87.0518 -3.06932 -87.0894 -3.23562 -87.127 -3.40191 -87.1647 -3.5682 -87.2025 -3.73448 -87.2403 -3.90075 -87.2782 -4.06702 -87.3161 -4.23328 -87.3541 -4.39953 -87.3922 -4.56578 -87.4303 -4.73202 -87.4684 -4.89825 -87.5066 -5.06447 -87.5449 -5.23069 -87.5832 -5.3969 -87.6216 -5.5631 -87.6601 -5.72929 -87.6986 -5.89548 -87.7372 -6.06165 -87.7758 -6.22782 -87.8145 -6.39399 -87.8532 -6.56014 -87.8921 -6.72628 -87.9309 -6.89242 -87.9699 -7.05855 -88.0089 -7.22467 -88.048 -7.39078 -88.0871 -7.55688 -88.1263 -7.72298 -88.1656 -7.88906 -88.2049 -8.05514 -88.2443 -8.22121 -88.2838 -8.38726 -88.3233 -8.55331 -88.3629 -8.71935 -88.4026 -8.88538 -88.4423 -9.0514 -88.4821 -9.21741 -88.522 -9.38341 -88.562 -9.5494 -88.602 -9.71538 -88.6421 -9.88135 -88.6823 -10.0473 -88.7226 -10.2133 -88.7629 -10.3792 -88.8033 -10.5451 -88.8438 -10.7111 -88.8843 -10.877 -88.9249 -11.0429 -88.9656 -11.2087 -89.0064 -11.3746 -89.0473 -11.5405 -89.0882 -11.7063 -89.1293 -11.8722 -89.1704 -12.038 -89.2115 -12.2038 -89.2528 -12.3696 -89.2942 -12.5354 -89.3356 -12.7012 -89.3771 -12.867 -89.4187 -13.0327 -89.4604 -13.1985 -89.5021 -13.3642 -89.544 -13.5299 -89.5859 -13.6957 -89.628 -13.8614 -89.6701 -14.027 -89.7123 -14.1927 -89.7546 -14.3584 -89.797 -14.524 -89.8395 -14.6897 -89.882 -14.8553 -89.9247 -15.0209 -89.9674 -15.1865 -90.0103 -15.352 -90.0532 -15.5176 -90.0963 -15.6832 -90.1394 -15.8487 -90.1826 -16.0142 -90.226 -16.1797 -90.2694 -16.3452 -90.3129 -16.5107 -90.3565 -16.6762 -90.4003 -16.8416 -90.4441 -17.0071 -90.488 -17.1725 -90.5321 -17.3379 -90.5762 -17.5033 -90.6204 -17.6687 -90.6648 -17.834 -90.7092 -17.9994 -90.7538 -18.1647 -90.7985 -18.33 -90.8433 -18.4953 -90.8881 -18.6606 -90.9331 -18.8258 -90.9782 -18.9911 -91.0235 -19.1563 -91.0688 -19.3215 -91.1142 -19.4867 -91.1598 -19.6519 -91.2055 -19.8171 -91.2513 -19.9822 -91.2972 -20.1474 -91.3432 -20.3125 -91.3894 -20.4776 -91.4356 -20.6426 -91.482 -20.8077 -91.5286 -20.9727 -91.5752 -21.1378 -91.6219 -21.3028 -91.6688 -21.4678 -91.7158 -21.6327 -91.763 -21.7977 -91.8103 -21.9626 -91.8576 -22.1275 -91.9052 -22.2924 -91.9528 -22.4573 -92.0006 -22.6221 -92.0485 -22.787 -92.0966 -22.9518 -92.1448 -23.1166 -92.1931 -23.2814 -92.2416 -23.4461 -92.2902 -23.6108 -92.3389 -23.7755 -92.3878 -23.9402 -92.4368 -24.1049 -92.486 -24.2696 -92.5353 -24.4342 -92.5848 -24.5988 -92.6344 -24.7634 -92.6841 -24.9279 -92.734 -25.0925 -92.7841 -25.257 -92.8343 -25.4215 -92.8846 -25.586 -92.9352 -25.7504 -92.9858 -25.9149 -93.0366 -26.0793 -93.0876 -26.2436 -93.1388 -26.408 -93.1901 -26.5723 -93.2415 -26.7367 -93.2931 -26.9009 -93.3449 -27.0652 -93.3969 -27.2294 -93.449 -27.3937 -93.5013 -27.5579 -93.5537 -27.722 -93.6063 -27.8862 -93.6591 -28.0503 -93.7121 -28.2144 -93.7653 -28.3784 -93.8186 -28.5425 -93.8721 -28.7065 -93.9258 -28.8705 -93.9796 -29.0344 -94.0337 -29.1984 -94.0879 -29.3623 -94.1423 -29.5262 -94.1969 -29.69 -94.2517 -29.8538 -94.3067 -30.0176 -94.3618 -30.1814 -94.4172 -30.3451 -94.4728 -30.5088 -94.5285 -30.6725 -94.5845 -30.8362 -94.6406 -30.9998 -94.697 -31.1634 -94.7535 -31.327 -94.8103 -31.4905 -94.8673 -31.654 -94.9245 -31.8175 -94.9818 -31.981 -95.0395 -32.1444 -95.0973 -32.3078 -95.1553 -32.4711 -95.2136 -32.6344 -95.272 -32.7977 -95.3307 -32.961 -95.3896 -33.1242 -95.4488 -33.2874 -95.5082 -33.4506 -95.5678 -33.6137 -95.6276 -33.7768 -95.6877 -33.9398 -95.748 -34.1029 -95.8085 -34.2659 -95.8693 -34.4288 -95.9303 -34.5918 -95.9916 -34.7546 -96.0531 -34.9175 -96.1149 -35.0803 -96.1769 -35.2431 -96.2391 -35.4058 -96.3017 -35.5686 -96.3644 -35.7312 -96.4275 -35.8939 -96.4908 -36.0565 -96.5543 -36.219 -96.6182 -36.3815 -96.6823 -36.544 -96.7467 -36.7065 -96.8113 -36.8689 -96.8762 -37.0313 -96.9415 -37.1936 -97.0069 -37.3559 -97.0727 -37.5181 -97.1388 -37.6803 -97.2051 -37.8425 -97.2718 -38.0046 -97.3387 -38.1667 -97.406 -38.3287 -97.4735 -38.4907 -97.5413 -38.6527 -97.6095 -38.8146 -97.678 -38.9765 -97.7467 -39.1383 -97.8158 -39.3001 -97.8852 -39.4618 -97.955 -39.6235 -98.025 -39.7851 -98.0954 -39.9467 -98.1661 -40.1083 -98.2372 -40.2698 -98.3085 -40.4313 -98.3803 -40.5927 -98.4523 -40.754 -98.5248 -40.9153 -98.5975 -41.0766 -98.6706 -41.2378 -98.7441 -41.399 -98.818 -41.5601 -98.8922 -41.7212 -98.9667 -41.8822 -99.0417 -42.0431 -99.117 -42.204 -99.1927 -42.3649 -99.2688 -42.5257 -99.3453 -42.6865 -99.4221 -42.8472 -99.4994 -43.0078 -99.577 -43.1684 -99.6551 -43.3289 -99.7336 -43.4894 -99.8124 -43.6498 -99.8917 -43.8101 -99.9714 -43.9704 -100.052 -44.1307 -100.132 -44.2909 -100.213 -44.451 -100.295 -44.6111 -100.376 -44.7711 -100.459 -44.931 -100.542 -45.0909 -100.625 -45.2507 -100.708 -45.4104 -100.793 -45.5701 -100.877 -45.7297 -100.962 -45.8893 -101.048 -46.0488 -101.134 -46.2082 -101.22 -46.3676 -101.308 -46.5269 -101.395 -46.6861 -101.483 -46.8452 -101.572 -47.0043 -101.661 -47.1633 -101.75 -47.3223 -101.84 -47.4811 -101.931 -47.6399 -102.022 -47.7986 -102.114 -47.9573 -102.206 -48.1159 -102.299 -48.2744 -102.393 -48.4328 -102.487 -48.5911 -102.581 -48.7494 -102.676 -48.9075 -102.772 -49.0656 -102.868 -49.2237 -102.965 -49.3816 -103.063 -49.5394 -103.161 -49.6972 -103.26 -49.8549 -103.359 -50.0125 -103.459 -50.17 -103.56 -50.3274 -103.661 -50.4848 -103.763 -50.642 -103.866 -50.7992 -103.969 -50.9562 -104.073 -51.1132 -104.178 -51.2701 -104.284 -51.4268 -104.39 -51.5835 -104.496 -51.7401 -104.604 -51.8966 -104.712 -52.053 -104.821 -52.2092 -104.931 -52.3654 -105.042 -52.5215 -105.153 -52.6775 -105.265 -52.8334 -105.378 -52.9891 -105.492 -53.1448 -105.606 -53.3003 -105.721 -53.4557 -105.837 -53.6111 -105.954 -53.7663 -106.072 -53.9214 -106.191 -54.0763 -106.31 -54.2312 -106.431 -54.3859 -106.552 -54.5405 -106.674 -54.695 -106.797 -54.8494 -106.921 -55.0037 -107.046 -55.1578 -107.172 -55.3118 -107.299 -55.4656 -107.426 -55.6193 -107.555 -55.7729 -107.685 -55.9264 -107.816 -56.0797 -107.948 -56.2329 -108.08 -56.3859 -108.214 -56.5388 -108.349 -56.6916 -108.485 -56.8442 -108.622 -56.9966 -108.76 -57.1489 -108.899 -57.3011 -109.04 -57.4531 -109.181 -57.6049 -109.324 -57.7566 -109.468 -57.9081 -109.613 -58.0595 -109.759 -58.2107 -109.907 -58.3617 -110.055 -58.5125 -110.205 -58.6632 -110.356 -58.8137 -110.509 -58.964 -110.663 -59.1142 -110.818 -59.2642 -110.974 -59.4139 -111.132 -59.5635 -111.291 -59.7129 -111.452 -59.8621 -111.614 -60.0111 -111.777 -60.1599 -111.942 -60.3086 -112.108 -60.457 -112.276 -60.6052 -112.445 -60.7531 -112.616 -60.9009 -112.789 -61.0485 -112.963 -61.1958 -113.138 -61.3429 -113.315 -61.4898 -113.494 -61.6364 -113.675 -61.7828 -113.857 -61.929 -114.041 -62.0749 -114.226 -62.2206 -114.414 -62.3661 -114.603 -62.5113 -114.794 -62.6562 -114.987 -62.8008 -115.181 -62.9452 -115.378 -63.0894 -115.576 -63.2332 -115.777 -63.3768 -115.979 -63.5201 -116.183 -63.6631 -116.39 -63.8058 -116.598 -63.9483 -116.809 -64.0904 -117.021 -64.2322 -117.236 -64.3737 -117.453 -64.5149 -117.672 -64.6558 -117.893 -64.7963 -118.117 -64.9365 -118.343 -65.0764 -118.571 -65.2159 -118.802 -65.3551 -119.035 -65.4939 -119.27 -65.6324 -119.508 -65.7705 -119.749 -65.9082 -119.992 -66.0455 -120.238 -66.1825 -120.486 -66.319 -120.737 -66.4552 -120.99 -66.591 -121.247 -66.7263 -121.506 -66.8612 -121.768 -66.9957 -122.032 -67.1298 -122.3 -67.2634 -122.571 -67.3966 -122.844 -67.5293 -123.121 -67.6615 -123.4 -67.7933 -123.683 -67.9246 -123.969 -68.0553 -124.258 -68.1856 -124.551 -68.3154 -124.846 -68.4447 -125.145 -68.5734 -125.448 -68.7016 -125.753 -68.8292 -126.063 -68.9563 -126.375 -69.0828 -126.692 -69.2088 -127.012 -69.3341 -127.336 -69.4589 -127.663 -69.583 -127.994 -69.7066 -128.329 -69.8295 -128.668 -69.9517 -129.011 -70.0733 -129.358 -70.1942 -129.708 -70.3145 -130.063 -70.434 -130.422 -70.5529 -130.785 -70.671 -131.153 -70.7884 -131.524 -70.9051 -131.9 -71.021 -132.281 -71.1361 -132.666 -71.2504 -133.055 -71.364 -133.449 -71.4767 -133.847 -71.5886 -134.251 -71.6996 -134.658 -71.8098 -135.071 -71.9191 -135.488 -72.0276 -135.91 -72.1351 -136.337 -72.2417 -136.769 -72.3473 -137.206 -72.452 -137.648 -72.5695 -137.343 -72.6865 -137.034 -72.8031 -136.721 -72.9191 -136.403 -73.0347 -136.081 -73.1497 -135.755 -73.2643 -135.425 -73.3782 -135.09 -73.4917 -134.751 -73.6046 -134.407 -73.7169 -134.059 -73.8286 -133.706 -73.9398 -133.348 -74.0503 -132.986 -74.1603 -132.618 -74.2696 -132.245 -74.3782 -131.868 -74.4862 -131.485 -74.5936 -131.097 -74.7002 -130.704 -74.8062 -130.305 -74.9114 -129.901 -75.0159 -129.492 -75.1197 -129.076 -75.2227 -128.655 -75.3249 -128.229 -75.4264 -127.796 -75.527 -127.358 -75.6268 -126.914 -75.7258 -126.463 -75.8239 -126.007 -75.9212 -125.544 -76.0175 -125.075 -76.113 -124.6 -76.2074 -124.118 -76.301 -123.63 -76.3936 -123.135 -76.4852 -122.634 -76.5757 -122.125 -76.6653 -121.611 -76.7538 -121.089 -76.8412 -120.561 -76.9275 -120.025 -77.0127 -119.483 -77.0968 -118.934 -77.1797 -118.377 -77.2614 -117.814 -77.3419 -117.244 -77.4212 -116.666 -77.4992 -116.081 -77.576 -115.489 -77.6514 -114.89 -77.7255 -114.284 -77.7983 -113.671 -77.8697 -113.05 -77.9397 -112.422 -78.0083 -111.787 -78.0754 -111.145 -78.1411 -110.496 -78.2052 -109.84 -78.2679 -109.177 -78.329 -108.507 -78.3885 -107.83 -78.4464 -107.146 -78.5028 -106.456 -78.5574 -105.758 -78.6104 -105.055 -78.6618 -104.345 -78.7114 -103.629 -78.7593 -102.906 -78.602 -102.642 -78.4446 -102.384 -78.2869 -102.132 -78.1291 -101.887 -77.9711 -101.647 -77.8129 -101.413 -77.6546 -101.184 -77.4961 -100.961 -77.3374 -100.742 -77.1786 -100.529 -77.0197 -100.32 -76.8606 -100.115 -76.7014 -99.9152 -76.5421 -99.7193 -76.3826 -99.5275 -76.223 -99.3395 -76.0633 -99.1554 -75.9035 -98.9749 -75.7436 -98.798 -75.5836 -98.6244 -75.4235 -98.4542 -75.2632 -98.2872 -75.1029 -98.1232 -74.9425 -97.9623 -74.782 -97.8043 -74.6214 -97.6491 -74.4608 -97.4966 -74.3 -97.3468 -74.1392 -97.1996 -73.9783 -97.0549 -73.8173 -96.9125 -73.6563 -96.7726 -73.4951 -96.6349 -73.334 -96.4994 -73.1727 -96.3661 -73.0114 -96.2349 -72.85 -96.1057 -72.6885 -95.9785 -72.527 -95.8532 -72.3655 -95.7298 -72.2038 -95.6082 -72.0422 -95.4884 -71.8804 -95.3703 -71.7186 -95.2539 -71.5568 -95.1391 -71.3949 -95.026 -71.2329 -94.9143 -71.071 -94.8042 -70.9089 -94.6956 -70.7468 -94.5884 -70.5847 -94.4826 -70.4225 -94.3782 -70.2603 -94.2751 -70.098 -94.1733 -69.9357 -94.0728 -69.7734 -93.9735 -69.611 -93.8755 -69.4486 -93.7786 -69.2861 -93.6828 -69.1236 -93.5882 -68.9611 -93.4947 -68.7985 -93.4023 -68.6359 -93.311 -68.4733 -93.2206 -68.3106 -93.1313 -68.1479 -93.0429 -67.9851 -92.9555 -67.8223 -92.8691 -67.6595 -92.7835 -67.4967 -92.6989 -67.3338 -92.6151 -67.1709 -92.5322 -67.008 -92.4502 -66.845 -92.369 -66.682 -92.2885 -66.519 -92.2089 -66.356 -92.1301 -66.1929 -92.052 -66.0298 -91.9746 -65.8667 -91.898 -65.7035 -91.8221 -65.5404 -91.7468 -65.3772 -91.6723 -65.2139 -91.5984 -65.0507 -91.5252 -64.8874 -91.4527 -64.7241 -91.3807 -64.5608 -91.3094 -64.3974 -91.2387 -64.2341 -91.1686 -64.0707 -91.0991 -63.9073 -91.0302 -63.7438 -90.9618 -63.5804 -90.894 -63.4169 -90.8267 -63.2534 -90.7599 -63.0898 -90.6937 -62.9263 -90.628 -62.7627 -90.5627 -62.5991 -90.498 -62.4355 -90.4338 -62.2719 -90.37 -62.1083 -90.3067 -61.9446 -90.2439 -61.7809 -90.1815 -61.6172 -90.1196 -61.4535 -90.0581 -61.2898 -89.997 -61.126 -89.9363 -60.9622 -89.8761 -60.7984 -89.8162 -60.6346 -89.7568 -60.4708 -89.6978 -60.3069 -89.6391 -60.1431 -89.5808 -59.9792 -89.5229 -59.8153 -89.4654 -59.6514 -89.4082 -59.4874 -89.3514 -59.3235 -89.2949 -59.1595 -89.2388 -58.9955 -89.183 -58.8315 -89.1275 -58.6675 -89.0724 -58.5035 -89.0176 -58.3395 -88.9631 -58.1754 -88.9089 -58.0113 -88.855 -57.8472 -88.8014 -57.6831 -88.7482 -57.519 -88.6952 -57.3549 -88.6425 -57.1907 -88.5901 -57.0265 -88.5379 -56.8623 -88.4861 -56.6981 -88.4345 -56.5339 -88.3831 -56.3697 -88.3321 -56.2055 -88.2812 -56.0412 -88.2307 -55.8769 -88.1804 -55.7127 -88.1303 -55.5484 -88.0805 -55.3841 -88.0309 -55.2197 -87.9816 -55.0554 -87.9325 -54.891 -87.8836 -54.7267 -87.8349 -54.5623 -87.7865 -54.3979 -87.7383 -54.2335 -87.6903 -54.0691 -87.6425 -53.9046 -87.5949 -53.7402 -87.5475 -53.5757 -87.5003 -53.4113 -87.4534 -53.2468 -87.4066 -53.0823 -87.36 -52.9178 -87.3136 -52.7533 -87.2674 -52.5887 -87.2214 -52.4242 -87.1756 -52.2596 -87.1299 -52.095 -87.0844 -51.9305 -87.0391 -51.7659 -86.994 -51.6013 -86.9491 -51.4366 -86.9043 -51.272 -86.8596 -51.1074 -86.8152 -50.9427 -86.7709 -50.778 -86.7268 -50.6133 -86.6828 -50.4487 -86.639 -50.2839 -86.5953 -50.1192 -86.5518 -49.9545 -86.5084 -49.7898 -86.4652 -49.625 -86.4221 -49.4602 -86.3792 -49.2955 -86.3364 -49.1307 -86.2937 -48.9659 -86.2512 -48.8011 -86.2088 -48.6363 -86.1665 -48.4714 -86.1244 -48.3066 -86.0824 -48.1417 -86.0406 -47.9769 -85.9988 -47.812 -85.9572 -47.6471 -85.9157 -47.4822 -85.8744 -47.3173 -85.8331 -47.1524 -85.792 -46.9874 -85.751 -46.8225 -85.7101 -46.6576 -85.6693 -46.4926 -85.6286 -46.3276 -85.588 -46.1626 -85.5476 -45.9976 -85.5072 -45.8326 -85.467 -45.6676 -85.4268 -45.5026 -85.3868 -45.3375 -85.3469 -45.1725 -85.307 -45.0074 -85.2673 -44.8424 -85.2277 -44.6773 -85.1881 -44.5122 -85.1487 -44.3471 -85.1093 -44.182 -85.0701 -44.0169 -85.0309 -43.8517 -84.9918 -43.6866 -84.9528 -43.5214 -84.9139 -43.3563 -84.8751 -43.1911 -84.8364 -43.0259 -84.7978 -42.8607 -84.7592 -42.6955 -84.7207 -42.5303 -84.6823 -42.3651 -84.644 -42.1999 -84.6058 -42.0346 -84.5676 -41.8694 -84.5295 -41.7041 -84.4915 -41.5388 -84.4536 -41.3736 -84.4157 -41.2083 -84.3779 -41.043 -84.3402 -40.8777 -84.3026 -40.7123 -84.265 -40.547 -84.2275 -40.3817 -84.1901 -40.2163 -84.1527 -40.051 -84.1154 -39.8856 -84.0781 -39.7202 -84.041 -39.5548 -84.0039 -39.3895 -83.9668 -39.224 -83.9298 -39.0586 -83.8929 -38.8932 -83.856 -38.7278 -83.8192 -38.5623 -83.7825 -38.3969 -83.7458 -38.2314 -83.7091 -38.066 -83.6726 -37.9005 -83.636 -37.735 -83.5996 -37.5695 -83.5632 -37.404 -83.5268 -37.2385 -83.4905 -37.073 -83.4542 -36.9074 -83.418 -36.7419 -83.3819 -36.5764 -83.3457 -36.4108 -83.3097 -36.2452 -83.2737 -36.0797 -83.2377 -35.9141 -83.2018 -35.7485 -83.1659 -35.5829 -83.1301 -35.4173 -83.0943 -35.2517 -83.0585 -35.086 -83.0228 -34.9204 -82.9872 -34.7548 -82.9516 -34.5891 -82.916 -34.4234 -82.8805 -34.2578 -82.845 -34.0921 -82.8095 -33.9264 -82.7741 -33.7607 -82.7387 -33.595 -82.7034 -33.4293 -82.6681 -33.2636 -82.6328 -33.0979 -82.5975 -32.9321 -82.5623 -32.7664 -82.5272 -32.6006 -82.492 -32.4349 -82.4569 -32.2691 -82.4219 -32.1033 -82.3868 -31.9376 -82.3518 -31.7718 -82.3169 -31.606 -82.2819 -31.4402 -82.247 -31.2744 -82.2121 -31.1085 -82.1773 -30.9427 -82.1424 -30.7769 -82.1076 -30.611 -82.0728 -30.4452 -82.0381 -30.2793 -82.0034 -30.1135 -81.9687 -29.9476 -81.934 -29.7817 -81.8994 -29.6158 -81.8647 -29.4499 -81.8301 -29.284 -81.7956 -29.1181 -81.761 -28.9522 -81.7265 -28.7863 -81.692 -28.6203 -81.6575 -28.4544 -81.623 -28.2885 -81.5885 -28.1225 -81.5541 -27.9565 -81.5197 -27.7906 -81.4853 -27.6246 -81.4509 -27.4586 -81.4166 -27.2926 -81.3822 -27.1266 -81.3479 -26.9606 -81.3136 -26.7946 -81.2793 -26.6286 -81.245 -26.4626 -81.2108 -26.2966 -81.1765 -26.1305 -81.1423 -25.9645 -81.1081 -25.7985 -81.0738 -25.6324 -81.0396 -25.4663 -81.0055 -25.3003 -80.9713 -25.1342 -80.9371 -24.9681 -80.903 -24.802 -80.8688 -24.6359 -80.8347 -24.4699 -80.8006 -24.3037 -80.7665 -24.1376 -80.7324 -23.9715 -80.6983 -23.8054 -80.6642 -23.6393 -80.6301 -23.4731 -80.5961 -23.307 -80.562 -23.1409 -80.528 -22.9747 -80.4939 -22.8085 -80.4599 -22.6424 -80.4258 -22.4762 -80.3918 -22.31 -80.3578 -22.1439 -80.3237 -21.9777 -80.2897 -21.8115 -80.2557 -21.6453 -80.2217 -21.4791 -80.1877 -21.3129 -80.1537 -21.1467 -80.1197 -20.9805 -80.0856 -20.8142 -80.0516 -20.648 -80.0176 -20.4818 -79.9836 -20.3155 -79.9496 -20.1493 -79.9156 -19.9831 -79.8816 -19.8168 -79.8476 -19.6505 -79.8136 -19.4843 -79.7796 -19.318 -79.7456 -19.1517 -79.7116 -18.9855 -79.6775 -18.8192 -79.6435 -18.6529 -79.6095 -18.4866 -79.5755 -18.3203 -79.5414 -18.154 -79.5074 -17.9877 -79.4733 -17.8214 -79.4393 -17.6551 -79.4052 -17.4888 -79.3712 -17.3225 -79.3371 -17.1561 -79.303 -16.9898 -79.2689 -16.8235 -79.2348 -16.6572 -79.2007 -16.4908 -79.1666 -16.3245 -79.1325 -16.1581 -79.0984 -15.9918 -79.0643 -15.8254 -79.0301 -15.6591 -78.996 -15.4927 -78.9618 -15.3263 -78.9276 -15.16 -78.8934 -14.9936 -78.8592 -14.8272 -78.825 -14.6608 -78.7908 -14.4945 -78.7565 -14.3281 -78.7223 -14.1617 -78.688 -13.9953 -78.6538 -13.8289 -78.6195 -13.6625 -78.5852 -13.4961 -78.5508 -13.3297 -78.5165 -13.1633 -78.4821 -12.9969 -78.4478 -12.8305 -78.4134 -12.6641 -78.379 -12.4976 -78.3446 -12.3312 -78.3101 -12.1648 -78.2757 -11.9984 -78.2412 -11.8319 -78.2067 -11.6655 -78.1722 -11.4991 -78.1377 -11.3327 -78.1032 -11.1662 -78.0686 -10.9998 -78.034 -10.8333 -77.9994 -10.6669 -77.9648 -10.5005 -77.9301 -10.334 -77.8955 -10.1676 -77.8608 -10.0011 -77.8261 -9.83468 -77.7913 -9.66822 -77.7566 -9.50177 -77.7218 -9.33532 -77.687 -9.16886 -77.6522 -9.00241 -77.6173 -8.83595 -77.5824 -8.66949 -77.5475 -8.50303 -77.5126 -8.33657 -77.4776 -8.17011 -77.4427 -8.00364 -77.4077 -7.83718 -77.3726 -7.67072 -77.3376 -7.50425 -77.3025 -7.33779 -77.2674 -7.17132 -77.2322 -7.00485 -77.1971 -6.83839 -77.1619 -6.67192 -77.1266 -6.50545 -77.0914 -6.33898 -77.0561 -6.17251 -77.0208 -6.00604 -76.9854 -5.83958 -76.95 -5.67311 -76.9146 -5.50664 -76.8792 -5.34017 -76.8437 -5.1737 -76.8082 -5.00724 -76.7726 -4.84077 -76.7371 -4.6743 -76.7015 -4.50784 -76.6658 -4.34137 -76.6301 -4.1749 -76.5944 -4.00844 -76.5587 -3.84198 -76.5229 -3.67551 -76.4871 -3.50905 -76.4512 -3.34259 -76.4153 -3.17613 -76.3794 -3.00967 -76.3434 -2.84322 -76.3074 -2.67676 -76.2714 -2.51031 -76.2353 -2.34386 -76.1992 -2.1774 -76.163 -2.01095 -76.1268 -1.84451 -76.0906 -1.67806 -76.0543 -1.51162 -76.018 -1.34517 -75.9816 -1.17873 -75.9452 -1.01229 -75.9088 -0.845859 -75.8723 -0.679425 -75.8357 -0.512993 -75.7991 -0.346564 -75.7625 -0.180137 -75.7259 -0.0137128 -75.6892 0.152709 -75.6524 0.319128 -75.6156 0.485544 -75.5787 0.651957 -75.5419 0.818367 -75.5049 0.984774 -75.4679 1.15118 -75.4309 1.31758 -75.3938 1.48398 -75.3567 1.65037 -75.3195 1.81676 -75.2823 1.98315 -75.245 2.14953 -75.2077 2.31591 -75.1703 2.48229 -75.1328 2.64866 -75.0954 2.81503 -75.0578 2.9814 -75.0202 3.14776 -74.9826 3.31411 -74.9449 3.48046 -74.9071 3.64681 -74.8693 3.81316 -74.8315 3.97949 -74.7936 4.14583 -74.7556 4.31216 -74.7176 4.47848 -74.6795 4.6448 -74.6414 4.81112 -74.6032 4.97743 -74.5649 5.14373 -74.5266 5.31003 -74.4882 5.47632 -74.4498 5.64261 -74.4113 5.80889 -74.3727 5.97517 -74.3341 6.14144 -74.2954 6.30771 -74.2567 6.47397 -74.2179 6.64022 -74.179 6.80647 -74.1401 6.97271 -74.1011 7.13895 -74.0621 7.30518 -74.0229 7.4714 -73.9838 7.63762 -73.9445 7.80383 -73.9052 7.97003 -73.8658 8.13622 -73.8263 8.30241 -73.7868 8.4686 -73.7472 8.63477 -73.7076 8.80094 -73.6678 8.9671 -73.628 9.13325 -73.5882 9.2994 -73.5482 9.46553 -73.5082 9.63166 -73.4681 9.79779 -73.4279 9.9639 -73.3877 10.13 -73.3474 10.2961 -73.307 10.4622 -73.2665 10.6283 -73.226 10.7944 -73.1854 10.9604 -73.1447 11.1265 -73.1039 11.2925 -73.063 11.4586 -73.0221 11.6246 -72.9811 11.7906 -72.94 11.9566 -72.8988 12.1226 -72.8576 12.2886 -72.8162 12.4546 -72.7748 12.6206 -72.7333 12.7865 -72.6917 12.9525 -72.65 13.1184 -72.6083 13.2844 -72.5664 13.4503 -72.5245 13.6162 -72.4825 13.7821 -72.4404 13.948 -72.3982 14.1139 -72.3559 14.2798 -72.3135 14.4456 -72.271 14.6115 -72.2284 14.7773 -72.1858 14.9431 -72.143 15.1089 -72.1002 15.2747 -72.0573 15.4405 -72.0142 15.6063 -71.9711 15.7721 -71.9279 15.9378 -71.8845 16.1036 -71.8411 16.2693 -71.7976 16.435 -71.7539 16.6008 -71.7102 16.7664 -71.6664 16.9321 -71.6225 17.0978 -71.5784 17.2635 -71.5343 17.4291 -71.49 17.5947 -71.4457 17.7604 -71.4012 17.926 -71.3567 18.0915 -71.312 18.2571 -71.2672 18.4227 -71.2223 18.5882 -71.1773 18.7538 -71.1322 18.9193 -71.087 19.0848 -71.0417 19.2503 -70.9962 19.4158 -70.9506 19.5812 -70.9049 19.7467 -70.8591 19.9121 -70.8132 20.0775 -70.7672 20.2429 -70.721 20.4083 -70.6748 20.5737 -70.6284 20.739 -70.5818 20.9044 -70.5352 21.0697 -70.4884 21.235 -70.4415 21.4003 -70.3945 21.5656 -70.3473 21.7308 -70.3001 21.8961 -70.2527 22.0613 -70.2051 22.2265 -70.1574 22.3917 -70.1096 22.5569 -70.0617 22.722 -70.0136 22.8871 -69.9654 23.0523 -69.9171 23.2174 -69.8686 23.3824 -69.82 23.5475 -69.7712 23.7125 -69.7223 23.8776 -69.6733 24.0426 -69.6241 24.2076 -69.5747 24.3725 -69.5253 24.5375 -69.4756 24.7024 -69.4259 24.8673 -69.3759 25.0322 -69.3259 25.1971 -69.2756 25.3619 -69.2253 25.5268 -69.1747 25.6916 -69.124 25.8564 -69.0732 26.0211 -69.0222 26.1859 -68.971 26.3506 -68.9197 26.5153 -68.8682 26.68 -68.8165 26.8446 -68.7647 27.0093 -68.7127 27.1739 -68.6606 27.3385 -68.6083 27.503 -68.5558 27.6676 -68.5031 27.8321 -68.4503 27.9966 -68.3973 28.1611 -68.3441 28.3255 -68.2908 28.49 -68.2372 28.6544 -68.1835 28.8187 -68.1296 28.9831 -68.0755 29.1474 -68.0212 29.3117 -67.9668 29.476 -67.9121 29.6403 -67.8573 29.8045 -67.8023 29.9687 -67.7471 30.1329 -67.6916 30.297 -67.636 30.4611 -67.5802 30.6252 -67.5242 30.7893 -67.468 30.9534 -67.4116 31.1174 -67.355 31.2814 -67.2982 31.4453 -67.2411 31.6093 -67.1839 31.7732 -67.1265 31.937 -67.0688 32.1009 -67.0109 32.2647 -66.9528 32.4285 -66.8945 32.5922 -66.836 32.756 -66.7772 32.9197 -66.7182 33.0833 -66.659 33.247 -66.5996 33.4106 -66.5399 33.5741 -66.48 33.7377 -66.4198 33.9012 -66.3595 34.0647 -66.2989 34.2281 -66.238 34.3915 -66.1769 34.5549 -66.1155 34.7182 -66.054 34.8816 -65.9921 35.0448 -65.93 35.2081 -65.8677 35.3713 -65.805 35.5345 -65.7422 35.6976 -65.679 35.8607 -65.6157 36.0238 -65.552 36.1868 -65.4881 36.3498 -65.4239 36.5128 -65.3594 36.6757 -65.2946 36.8386 -65.2296 37.0014 -65.1643 37.1642 -65.0987 37.327 -65.0328 37.4897 -64.9667 37.6524 -64.9002 37.8151 -64.8334 37.9777 -64.7664 38.1402 -64.699 38.3028 -64.6314 38.4653 -64.5634 38.6277 -64.4951 38.7901 -64.4265 38.9525 -64.3576 39.1148 -64.2884 39.2771 -64.2189 39.4393 -64.149 39.6015 -64.0788 39.7637 -64.0083 39.9258 -63.9375 40.0878 -63.8663 40.2498 -63.7947 40.4118 -63.7229 40.5737 -63.6507 40.7356 -63.5781 40.8974 -63.5052 41.0592 -63.4319 41.2209 -63.3583 41.3826 -63.2843 41.5442 -63.2099 41.7058 -63.1351 41.8674 -63.06 42.0288 -62.9845 42.1903 -62.9087 42.3517 -62.8324 42.513 -62.7558 42.6743 -62.6787 42.8355 -62.6013 42.9967 -62.5234 43.1578 -62.4452 43.3188 -62.3665 43.4798 -62.2875 43.6408 -62.208 43.8017 -62.128 43.9625 -62.0477 44.1233 -61.9669 44.284 -61.8857 44.4447 -61.8041 44.6053 -61.722 44.7658 -61.6395 44.9263 -61.5565 45.0867 -61.473 45.2471 -61.3891 45.4074 -61.3047 45.5676 -61.2198 45.7278 -61.1345 45.8879 -61.0487 46.0479 -60.9624 46.2079 -60.8756 46.3678 -60.7883 46.5277 -60.7004 46.6874 -60.6121 46.8472 -60.5233 47.0068 -60.4339 47.1664 -60.344 47.3259 -60.2536 47.4853 -60.1627 47.6446 -60.0712 47.8039 -59.9791 47.9631 -59.8865 48.1222 -59.7934 48.2813 -59.6996 48.4403 -59.6053 48.5992 -59.5104 48.758 -59.4149 48.9168 -59.3189 49.0754 -59.2222 49.234 -59.1249 49.3925 -59.027 49.5509 -58.9285 49.7093 -58.8294 49.8675 -58.7296 50.0257 -58.6291 50.1838 -58.5281 50.3418 -58.4263 50.4997 -58.3239 50.6575 -58.2209 50.8152 -58.1171 50.9728 -58.0127 51.1304 -57.9075 51.2878 -57.8017 51.4452 -57.6951 51.6024 -57.5878 51.7596 -57.4798 51.9167 -57.3711 52.0736 -57.2616 52.2305 -57.1513 52.3872 -57.0403 52.5439 -56.9285 52.7004 -56.8159 52.8569 -56.7026 53.0132 -56.5884 53.1695 -56.4734 53.3256 -56.3576 53.4816 -56.241 53.6375 -56.1235 53.7933 -56.0052 53.9489 -55.886 54.1045 -55.7659 54.2599 -55.6449 54.4152 -55.5231 54.5704 -55.4003 54.7255 -55.2766 54.8805 -55.152 55.0353 -55.0265 55.19 -54.9 55.3445 -54.7725 55.499 -54.644 55.6533 -54.5146 55.8074 -54.3842 55.9615 -54.2527 56.1154 -54.1202 56.2691 -53.9867 56.4227 -53.8521 56.5762 -53.7165 56.7295 -53.5797 56.8827 -53.4419 57.0357 -53.303 57.1886 -53.1629 57.3413 -53.0217 57.4939 -52.8794 57.6463 -52.7358 57.7985 -52.5911 57.9506 -52.4452 58.1026 -52.2981 58.2543 -52.1497 58.4059 -52.0001 58.5573 -51.8492 58.7085 -51.6971 58.8596 -51.5436 59.0105 -51.3888 59.1612 -51.2327 59.3117 -51.0753 59.462 -50.9164 59.6122 -50.7562 59.7621 -50.5946 59.9119 -50.4315 60.0615 -50.267 60.2108 -50.101 60.36 -49.9335 60.5089 -49.7645 60.6576 -49.594 60.8062 -49.422 60.9545 -49.2483 61.1026 -49.0731 61.2504 -48.8963 61.3981 -48.7178 61.5455 -48.5376 61.6926 -48.3558 61.8396 -48.1723 61.9863 -47.987 62.1327 -47.7999 62.2789 -47.6111 62.4249 -47.4205 62.5706 -47.228 62.716 -47.0337 62.8612 -46.8375 63.0061 -46.6394 63.1507 -46.4393 63.295 -46.2373 63.4391 -46.0333 63.5829 -45.8272 63.7264 -45.6191 63.8696 -45.4089 64.0125 -45.1966 64.1551 -44.9821 64.2973 -44.7655 64.4393 -44.5467 64.581 -44.3256 64.7223 -44.1022 64.8633 -43.8766 65.0039 -43.6486 65.1442 -43.4182 65.2842 -43.1854 65.4238 -42.9502 65.563 -42.7125 65.7019 -42.4723 65.8404 -42.2295 65.9785 -41.9842 66.1163 -41.7362 66.2536 -41.4855 66.3906 -41.2322 66.5271 -40.9761 66.6632 -40.7173 66.7989 -40.4556 66.9342 -40.191 67.0691 -39.9236 67.2035 -39.6532 67.3374 -39.3798 67.4709 -39.1033 67.6039 -38.8239 67.7365 -38.5412 67.8686 -38.2555 68.0001 -37.9665 68.1312 -37.6742 68.2618 -37.3787 68.3918 -37.0798 68.5213 -36.7775 68.6503 -36.4718 68.7787 -36.1626 68.9066 -35.8498 69.0339 -35.5335 69.1606 -35.2135 69.2868 -34.8898 69.4123 -34.5624 69.5372 -34.2312 69.6615 -33.8962 69.7852 -33.5573 69.9082 -33.2144 70.0306 -32.8675 70.1523 -32.5166 70.2733 -32.1616 70.3937 -31.8025 70.5133 -31.4392 70.6322 -31.0716 70.7503 -30.6997 70.8678 -30.3234 70.9844 -29.9427 71.1003 -29.5576 71.2154 -29.1679 71.3297 -28.7737 71.4432 -28.3749 71.5558 -27.9714 71.6676 -27.5631 71.7785 -27.1501</gml:posList>
+            </sentinel-safe:footPrint>
+          </sentinel-safe:frameSet>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="merisProductInformation" classification="DESCRIPTION" category="DMD">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="">
+        <xmlData>
+          <meris:merisProductInformation>
+            <meris:pixelQualitySummary>
+              <meris:invalidPixels value="0" percentage="0.000000"/>
+              <meris:cosmeticPixels value="0" percentage="0.000000"/>
+              <meris:duplicatedPixels value="0" percentage="0.000000"/>
+              <meris:saturatedPixels value="0" percentage="0.000000"/>
+              <meris:dubiousSamples value="0" percentage="0.000000"/>
+            </meris:pixelQualitySummary>
+            <meris:classificationSummary>
+              <envisat:brightPixels percentage="0.000000"/>
+              <envisat:salineWaterPixels percentage="0.000000"/>
+              <envisat:coastalPixels percentage="0.000000"/>
+              <envisat:freshInlandWaterPixels percentage="0.000000"/>
+              <envisat:landPixels percentage="0.000000"/>
+              <envisat:tidalRegionPixels percentage="0.000000"/>
+            </meris:classificationSummary>
+            <meris:measurementAccuracy>0.000000</meris:measurementAccuracy>
+            <meris:accuracyReference></meris:accuracyReference>
+            <meris:imageSize>
+              <envisat:rows>0</envisat:rows>
+              <envisat:columns>0</envisat:columns>
+            </meris:imageSize>
+            <meris:ecmwfType timeRelevance="0">FORECAST</meris:ecmwfType>
+            <meris:earthSunDistance>0</meris:earthSunDistance>
+            <meris:oclStatus>false</meris:oclStatus>
+            <meris:samplingParameters>
+              <meris:alTimeSampling>175988.000000</meris:alTimeSampling>
+              <meris:alSpatialSampling>1160.000000</meris:alSpatialSampling>
+              <meris:acSpatialSampling>1040.000000</meris:acSpatialSampling>
+              <meris:rowsPerTiePoint>16</meris:rowsPerTiePoint>
+              <meris:columnsPerTiePoint>16</meris:columnsPerTiePoint>
+            </meris:samplingParameters>
+            <meris:bandDescriptions bands="15">
+              <envisat:band name="M01">
+                <envisat:centralWavelength>412.691000</envisat:centralWavelength>
+                <envisat:bandwidth>9.937000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M02">
+                <envisat:centralWavelength>442.559000</envisat:centralWavelength>
+                <envisat:bandwidth>9.946000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M03">
+                <envisat:centralWavelength>489.882000</envisat:centralWavelength>
+                <envisat:bandwidth>9.957000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M04">
+                <envisat:centralWavelength>509.819000</envisat:centralWavelength>
+                <envisat:bandwidth>9.961000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M05">
+                <envisat:centralWavelength>559.694000</envisat:centralWavelength>
+                <envisat:bandwidth>9.970000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M06">
+                <envisat:centralWavelength>619.601000</envisat:centralWavelength>
+                <envisat:bandwidth>9.979000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M07">
+                <envisat:centralWavelength>664.573000</envisat:centralWavelength>
+                <envisat:bandwidth>9.985000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M08">
+                <envisat:centralWavelength>680.821000</envisat:centralWavelength>
+                <envisat:bandwidth>7.488000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M09">
+                <envisat:centralWavelength>708.329000</envisat:centralWavelength>
+                <envisat:bandwidth>9.992000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M10">
+                <envisat:centralWavelength>753.371000</envisat:centralWavelength>
+                <envisat:bandwidth>7.495000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M11">
+                <envisat:centralWavelength>761.508000</envisat:centralWavelength>
+                <envisat:bandwidth>3.744000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M12">
+                <envisat:centralWavelength>778.409000</envisat:centralWavelength>
+                <envisat:bandwidth>15.010000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M13">
+                <envisat:centralWavelength>864.876000</envisat:centralWavelength>
+                <envisat:bandwidth>20.047000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M14">
+                <envisat:centralWavelength>884.944000</envisat:centralWavelength>
+                <envisat:bandwidth>10.018000</envisat:bandwidth>
+              </envisat:band>
+              <envisat:band name="M15">
+                <envisat:centralWavelength>900.000000</envisat:centralWavelength>
+                <envisat:bandwidth>10.020000</envisat:bandwidth>
+              </envisat:band>
+            </meris:bandDescriptions>
+          </meris:merisProductInformation>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="timeCoordinatesAnnotation" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="timeCoordinatesData"/>
+    </metadataObject>
+    <metadataObject ID="geoCoordinatesAnnotation" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="geoCoordinatesData"/>
+    </metadataObject>
+    <metadataObject ID="qualityFlagsAnnotation" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="qualityFlagsData"/>
+    </metadataObject>
+    <metadataObject ID="tieGeoCoordinatesAnnotation" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="tieGeoCoordinatesData"/>
+    </metadataObject>
+    <metadataObject ID="instrumentDataAnnotation" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="instrumentDataData"/>
+    </metadataObject>
+    <metadataObject ID="tieMeteoAnnotation" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="tieMeteoData"/>
+    </metadataObject>
+    <metadataObject ID="tieGeometriesAnnotation" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="tieGeometriesData"/>
+    </metadataObject>
+  </metadataSection>
+  <dataObjectSection>
+    <dataObject ID="M01_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="26144474">
+        <fileLocation locatorType="URL" href="M01_radiance.nc"/>
+        <checksum checksumName="MD5">a71c2738d4a1a30ea08ba75872bad745</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M02_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="26338920">
+        <fileLocation locatorType="URL" href="M02_radiance.nc"/>
+        <checksum checksumName="MD5">a9138437e08104760f6b64f1eae42615</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M03_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="26395300">
+        <fileLocation locatorType="URL" href="M03_radiance.nc"/>
+        <checksum checksumName="MD5">a098e95665517a9e957ed2b8cc56c21d</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M04_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="26661366">
+        <fileLocation locatorType="URL" href="M04_radiance.nc"/>
+        <checksum checksumName="MD5">5a154ef5dde8bc16d09f1096c7f2f39e</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M05_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="26890462">
+        <fileLocation locatorType="URL" href="M05_radiance.nc"/>
+        <checksum checksumName="MD5">b03b7005b97ff6078e0592b69f0fcfdd</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M06_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="27105862">
+        <fileLocation locatorType="URL" href="M06_radiance.nc"/>
+        <checksum checksumName="MD5">45742e6af637b6c75ace1a038601b187</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M07_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="27632505">
+        <fileLocation locatorType="URL" href="M07_radiance.nc"/>
+        <checksum checksumName="MD5">e4c3002f3f1f01cfed061fc8161b3a7a</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M08_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="27529824">
+        <fileLocation locatorType="URL" href="M08_radiance.nc"/>
+        <checksum checksumName="MD5">93c339a9d350abcba2dbc18dc3f30b40</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M09_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="27700281">
+        <fileLocation locatorType="URL" href="M09_radiance.nc"/>
+        <checksum checksumName="MD5">7c792b17912ce215d44d11a6a45cb791</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M10_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="26557570">
+        <fileLocation locatorType="URL" href="M10_radiance.nc"/>
+        <checksum checksumName="MD5">c308699c1878a7b4b7729d9b6a0af848</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M11_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="23490237">
+        <fileLocation locatorType="URL" href="M11_radiance.nc"/>
+        <checksum checksumName="MD5">f1cc248fff6f4d8655e46049a8c94a41</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M12_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="28192092">
+        <fileLocation locatorType="URL" href="M12_radiance.nc"/>
+        <checksum checksumName="MD5">b5bfe44d116bec4fb87579cb79e26482</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M13_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="28316822">
+        <fileLocation locatorType="URL" href="M13_radiance.nc"/>
+        <checksum checksumName="MD5">25e2db43fc0117b3430f2a2c24fc003a</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M14_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="26740358">
+        <fileLocation locatorType="URL" href="M14_radiance.nc"/>
+        <checksum checksumName="MD5">0f0fd029dcbf75bf879d83b61ce3a9db</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="M15_radianceData">
+      <byteStream mimeType="application/x-netcdf" size="26446479">
+        <fileLocation locatorType="URL" href="M15_radiance.nc"/>
+        <checksum checksumName="MD5">ec7a017b4cfe13c1d03f73df56278029</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="qualityFlagsData">
+      <byteStream mimeType="application/x-netcdf" size="1967231">
+        <fileLocation locatorType="URL" href="qualityFlags.nc"/>
+        <checksum checksumName="MD5">045da5b62f1c5dc95007c8f2a970c7e0</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="timeCoordinatesData">
+      <byteStream mimeType="application/x-netcdf" size="74036">
+        <fileLocation locatorType="URL" href="time_coordinates.nc"/>
+        <checksum checksumName="MD5">b78f59f34d8d27f8acc2f88f6420fc42</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="geoCoordinatesData">
+      <byteStream mimeType="application/x-netcdf" size="61060540">
+        <fileLocation locatorType="URL" href="geo_coordinates.nc"/>
+        <checksum checksumName="MD5">48b78983681cce6e3a3e5d724e4be238</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="tieGeoCoordinatesData">
+      <byteStream mimeType="application/x-netcdf" size="346101">
+        <fileLocation locatorType="URL" href="tie_geo_coordinates.nc"/>
+        <checksum checksumName="MD5">3ccfe21951f59b610ee4b20e6c2ea574</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="tieGeometriesData">
+      <byteStream mimeType="application/x-netcdf" size="607869">
+        <fileLocation locatorType="URL" href="tie_geometries.nc"/>
+        <checksum checksumName="MD5">3cc739e711fb55df6c9ad206b0cf3b20</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="tieMeteoData">
+      <byteStream mimeType="application/x-netcdf" size="7465897">
+        <fileLocation locatorType="URL" href="tie_meteo.nc"/>
+        <checksum checksumName="MD5">fe51ead51d17c9d15c7f620cb6271592</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="instrumentDataData">
+      <byteStream mimeType="application/x-netcdf" size="805587">
+        <fileLocation locatorType="URL" href="instrument_data.nc"/>
+        <checksum checksumName="MD5">6df6087f3c27519e6024439a9f50c59e</checksum>
+      </byteStream>
+    </dataObject>
+  </dataObjectSection>
+</xfdu:XFDU>
